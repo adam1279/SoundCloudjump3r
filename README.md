@@ -2,7 +2,7 @@
 An extension for Cloudjump3r to make SoundCloud descriptions bigger for his streams.
 
 To install:
-1. download repository contents
+1. download repository contents as ZIP file
 2. unzip folder
 3. go to chrome://extensions/
 4. enable developer mode
