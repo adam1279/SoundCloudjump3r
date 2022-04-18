@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "SoundCloudjump3r",
+    "version": "0.1",
+    "description": "make bigger",
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://soundcloud.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://soundcloud.com/*"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "Icon.png",
+        "32": "Icon.png",
+        "48": "Icon.png",
+        "128": "Icon.png"
+    }
+}

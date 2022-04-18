@@ -1,0 +1,17 @@
+.listenDetails__partialInfo {
+    cursor: pointer;
+    transition: transform .2s, background-color .2s, padding .2s, box-shadow .2s, border-radius .2s;
+    position: relative;
+    z-index: 10;
+}
+.listenDetails__partialInfo:active:not(:focus-within) {
+    transform: scale(1.8) translateY(-20%);
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
